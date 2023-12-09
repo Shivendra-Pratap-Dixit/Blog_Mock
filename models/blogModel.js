@@ -1,11 +1,6 @@
 const mongoose = require("mongoose");
 
 const blogSchema = new mongoose.Schema({
-  _id: {
-    type: Number,
-    required: true,
-    unique: true,
-  },
   username: {
     type: String,
     required: true,
